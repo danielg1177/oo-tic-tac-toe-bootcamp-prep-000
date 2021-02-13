@@ -1,5 +1,3 @@
-require_relative '../lib/tic_tac_toe.rb'
-
 describe "bin/tictactoe" do
   it 'instantiates an instance of TicTacToe' do
     game = TicTacToe.new
